@@ -65,3 +65,9 @@ nest g s modules/auth
  npm i --save class-validator class-transformer
 ````
 
+# passport
+````
+npm i @nestjs/passport
+````
+
+
