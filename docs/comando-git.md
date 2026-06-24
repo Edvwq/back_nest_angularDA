@@ -70,4 +70,9 @@ nest g s modules/auth
 npm i @nestjs/passport
 ````
 
+# variables de entorno
+````
+DESARROLLO -> DEVELOPMENT
+
+
 
