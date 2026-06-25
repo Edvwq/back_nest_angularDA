@@ -73,6 +73,13 @@ npm i @nestjs/passport
 # variables de entorno
 ````
 DESARROLLO -> DEVELOPMENT
+````
 
+# MIGRATION
+````
+    "typeorm": "typeorm-ts-node-commonjs",
+    "migration:generate": "npm run typeorm migration:generate ./src/database/migrations/%npm_config_name% -- -d typeorm.config.ts",
+    "migration:run": "npm run typeorm migration:run -- -d typeorm.config.ts"
+````
 
 
